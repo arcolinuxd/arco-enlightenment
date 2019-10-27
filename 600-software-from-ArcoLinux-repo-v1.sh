@@ -20,7 +20,7 @@ echo "####     Software from ArcoLinux Repository installed       ####"
 echo "################################################################"
 echo
 
-sudo pacman -S arcolinux-applications-git --noconfirm --needed
+#sudo pacman -S arcolinux-applications-git --noconfirm --needed
 #sudo pacman -S arcolinux-arc-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-arc-themes-nico-git --noconfirm --needed
 #sudo pacman -S arcolinux-awesome-git --noconfirm --needed
@@ -44,11 +44,11 @@ sudo pacman -S arcolinux-config-enlightenment-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-openbox-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-plasma-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-qtile-git --noconfirm --needed
-sudo pacman -S arcolinux-config-xfce-git --noconfirm --needed
+#sudo pacman -S arcolinux-config-xfce-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-xmonad-git --noconfirm --needed
 sudo pacman -S arcolinux-conky-collection-git --noconfirm --needed
 #sudo pacman -S arcolinux-docs-git --noconfirm --needed
-sudo pacman -S arcolinux-faces-git --noconfirm --needed
+#sudo pacman -S arcolinux-faces-git --noconfirm --needed
 sudo pacman -S arcolinux-fonts-git --noconfirm --needed
 sudo pacman -S arcolinux-geany-git --noconfirm --needed
 #sudo pacman -S arcolinux-herbstluftwm-git --noconfirm --needed
@@ -59,7 +59,7 @@ sudo pacman -S arcolinux-kvantum-git --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter --noconfirm --needed
 #sudo pacman -S arcolinux-lightdm-gtk-greeter-plasma --noconfirm --needed
 sudo pacman -S arcolinux-lightdm-gtk-greeter-settings --noconfirm --needed
-sudo pacman -S arcolinux-local-git --noconfirm --needed
+#sudo pacman -S arcolinux-local-git --noconfirm --needed
 #sudo pacman -S arcolinux-logo-git --noconfirm --needed
 #sudo pacman -S arcolinux-lxqt-applications-add-git --noconfirm --needed
 #sudo pacman -S arcolinux-lxqt-applications-hide-git --noconfirm --needed
@@ -84,11 +84,11 @@ sudo pacman -S arcolinux-plank-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-qt5-git --noconfirm --needed
 #sudo pacman -S arcolinux-qtile-git --noconfirm --needed
 #sudo pacman -S arcolinux-qt5-plasma-git --noconfirm --needed
-sudo pacman -S arcolinux-rofi-git --noconfirm --needed
-sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
+#sudo pacman -S arcolinux-rofi-git --noconfirm --needed
+#sudo pacman -S arcolinux-rofi-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-root-git --noconfirm --needed
-sudo pacman -S arcolinux-slim --noconfirm --needed
-sudo pacman -S arcolinux-slimlock-themes-git --noconfirm --needed
+#sudo pacman -S arcolinux-slim --noconfirm --needed
+#sudo pacman -S arcolinux-slimlock-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-system-config-git --noconfirm --needed
 sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 #sudo pacman -S arcolinux-tint2-git --noconfirm --needed
@@ -96,7 +96,7 @@ sudo pacman -S arcolinux-termite-themes-git --noconfirm --needed
 sudo pacman -S arcolinux-variety-git --noconfirm --needed
 sudo pacman -S arcolinux-wallpapers-git --noconfirm --needed
 #sudo pacman -S arcolinux-wallpapers-lxqt-dual-git --noconfirm --needed
-sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
+#sudo pacman -S arcolinux-xfce4-panel-profiles-git --noconfirm --needed
 sudo pacman -S arcolinux-xfce-thunar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmobar-git --noconfirm --needed
 #sudo pacman -S arcolinux-xmonad-polybar-git --noconfirm --needed
@@ -118,10 +118,10 @@ echo "####     Software from ArcoLinux 3party Repository           ####"
 echo "################################################################"
 echo "Retry if it times out - large files to download"
 
-sudo pacman -S --noconfirm --needed discord
-sudo pacman -S --noconfirm --needed dropbox
+#sudo pacman -S --noconfirm --needed discord
+#sudo pacman -S --noconfirm --needed dropbox
 #sudo pacman -S --noconfirm --needed insync
-sudo pacman -S --noconfirm --needed spotify
+#sudo pacman -S --noconfirm --needed spotify
 
 echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"
