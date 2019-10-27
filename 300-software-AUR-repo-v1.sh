@@ -1,8 +1,6 @@
 #!/bin/bash
 set -e
-echo "Put a hashtag in front of set -e to keep installing even if there is an error"
-tput setaf 2;echo "CTRL + C will stop the script from running";tput sgr0
-tput setaf 1;echo "Did you change the name and email address?";tput sgr0
+tput setaf 2;echo "Put a hashtag in front of set -e to keep installing even if there is an error";tput sgr0
 echo
 countdown() {
   secs=5
