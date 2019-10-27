@@ -33,7 +33,7 @@ sudo pacman -S arcolinux-bin-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-cinnamon-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-deepin-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-dwm-git --noconfirm --needed
-#sudo pacman -S arcolinux-config-enlightenment-git --noconfirm --needed
+sudo pacman -S arcolinux-config-enlightenment-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-gnome-git --noconfirm --needed
 #sudo pacman -S arcolinux-config-herbstluftwm-git --noconfirm --needed
