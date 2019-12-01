@@ -1,18 +1,12 @@
 #!/bin/bash
 set -e
-tput setaf 2;echo "Put a hashtag in front of set -e to keep installing even if there is an error";tput sgr0
-echo
-countdown() {
-  secs=5
-  while [ $secs -gt 0 ]
-  do
-    printf "\r\033[KScript will continue in %.d seconds " $((secs--))
-    sleep 1
-  done
-  echo
-}
-
-countdown
+echo "One or more packages are coming from AUR as source."
+echo "If a package from AUR fails to install, all other packages after that will NOT be installed."
+echo "We put the set -e for you to notice some package broke the script and you can intervene manually."
+echo "Put a hashtag in front of set -e to keep installing (the rest) even if there is an error."
+echo "Then figure out how to get the broken package installed or leave it until the maintainer from AUR"
+echo "will fix it for you. Give it some time."
+sleep 3
 ##################################################################################################################
 # Author	:	Erik Dubois
 # Website	:	https://www.erikdubois.be
