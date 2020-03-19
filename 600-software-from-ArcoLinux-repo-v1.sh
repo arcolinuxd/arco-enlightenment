@@ -172,6 +172,7 @@ echo "################################################################"
 
 sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed telegram-desktop
+sudo pacman -S --noconfirm --needed bibata-cursor-theme
 
 echo "################################################################"
 echo "####     Software from ArcoLinux 3party Repository installed       ####"
