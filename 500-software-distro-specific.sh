@@ -57,8 +57,18 @@ func_category Additional-distro-specific
 list=(
 dmenu
 imagemagick
+gtk-engine-murrine
+lxappearance
+lxrandr
 w3m
+xfce4-appfinder
+xfce4-notifyd
+xfce4-power-manager
+xfce4-screenshooter
+xfce4-taskmanager
+xfce4-terminal
 hardcode-fixer-git
+acpid
 )
 
 count=0
@@ -71,6 +81,11 @@ echo "Fixing hardcoded icon paths for applications - Wait for it"
 sudo hardcode-fixer
 
 ###############################################################################
+tput setaf 5;echo "################################################################"
+echo "Enabling acpid service"
+echo "################################################################"
+echo;tput sgr0
+sudo systemctl enable acpid.service 
 
 tput setaf 11;
 echo "################################################################"

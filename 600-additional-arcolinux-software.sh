@@ -55,15 +55,17 @@ func_category() {
 func_category Arcolinux-Desktop
 
 list=(
-arcolinux-config-enlightenment-git
-arcolinux-enlightenment-dconf-git
-arcolinux-enlightenment-git
 thunar
 thunar-archive-plugin
 thunar-volman
 xfce4-terminal
 arcolinux-xfce-git
 arcolinux-local-xfce4-git
+xdgmenumaker
+#arcolinux-enlightenment-git
+#arcolinux-enlightenment-dconf-git
+#arcolinux-config-enlightenment-git
+dmenu
 )
 
 count=0

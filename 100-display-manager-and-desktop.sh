@@ -52,6 +52,7 @@ arcolinux-lightdm-gtk-greeter
 arcolinux-lightdm-gtk-greeter-settings
 arcolinux-wallpapers-git
 enlightenment
+efl
 )
 
 count=0
