@@ -62,9 +62,6 @@ xfce4-terminal
 arcolinux-xfce-git
 arcolinux-local-xfce4-git
 xdgmenumaker
-#arcolinux-enlightenment-git
-#arcolinux-enlightenment-dconf-git
-#arcolinux-config-enlightenment-git
 dmenu
 )
 
