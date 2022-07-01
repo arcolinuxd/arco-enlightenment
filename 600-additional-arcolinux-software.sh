@@ -85,6 +85,7 @@ arcolinux-root-git
 arcolinux-termite-themes-git
 archlinux-tweak-tool-git
 arcolinux-variety-git
+arcolinux-config-all-desktops-git
 )
 
 count=0
