@@ -61,7 +61,6 @@ thunar-volman
 xfce4-terminal
 arconet-xfce
 arcolinux-local-xfce4-git
-xdgmenumaker
 dmenu
 )
 
